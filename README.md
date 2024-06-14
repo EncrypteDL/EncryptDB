@@ -1,7 +1,7 @@
 # Encrypte-Quantum-Ledger-Database
 Encrypte Quantum Ledger Database (ELDB) is a fully managed ledger database service provided by EncrypteID. It is designed to provide a transparent, immutable, and cryptographically verifiable transaction log owned by a central trusted authority. Inspired From Amazon Quantum Ledger Database
 
-## How it Work 
+## Overview How it Work 
 This Architect is an ordered sequence of data changes. Each change in this architect is linked with the previous chain through cryptographic means. It attaches a so-called digest to each change, which is iteratively computed over all changes until this point.
 ![alt text](assets/image.png)
 
@@ -26,4 +26,14 @@ This Architect is an ordered sequence of data changes. Each change in this archi
 | **Use Case Suitability**   | Auditing, financial transactions, supply chain | General-purpose, complex queries, transactions | High-volume data, flexible schema, real-time analytics |
 
 
+## Requiremets
+```
+go get -v -u github.com/btcsuite/btcutil/base58
+go get -v -u golang.org/x/crypto/ripemd160
+go get -u -v github.com/gorilla/mux
+go get -u -v github.com/sirupsen/logrus
+go get -u -v github.com/pkg/errors
+go get -u -v github.com/satori/go.uuid
+go get -u -v golang.org/x/crypto/bcrypt
+```
 

@@ -56,4 +56,3 @@ func (eqldbLogger *eqldbLogger) logf(verbosityLevel LogLevel, message string, ar
 		}
 	}
 }
-

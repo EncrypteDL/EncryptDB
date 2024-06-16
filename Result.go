@@ -8,7 +8,7 @@ import (
 )
 
 // Result is a cursor over a result set from a QLDB statement.
-type Resut interface {
+type Result interface {
 	Next(txn Transaction) bool
 	GetCurrentData() []byte
 	GEtConsumedIOs() *types.IOUsage

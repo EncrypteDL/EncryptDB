@@ -1,4 +1,4 @@
-package encryptequantumledgerdatabase
+package result
 
 import (
 	"context"

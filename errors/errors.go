@@ -1,12 +1,12 @@
 package errors
 
 // eqldbError is returned when an error caused by EQLDB has occurred.
-type eqldbError struct {
+type EqldbError struct {
 	errormessage string
 }
 
 // Return the message denoting the cause of the error
-func (e *eqldbError) Error() string {
+func (e *EqldbError) Error() string {
 	return e.errormessage
 }
 

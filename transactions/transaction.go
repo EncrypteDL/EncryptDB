@@ -1,4 +1,4 @@
-package encryptequantumledgerdatabase
+package transactions
 
 import (
 	"context"
@@ -55,7 +55,7 @@ func (txn *transaction) execute(ctx context.Context, statement string, parameter
 	}
 	txn.commitHash = commitHash
 
-	executeResult, err := txn.communicators.executeStatement(ctx, &statement, valueHolders, txn.id)
+	executeResult, err := txn.comminicator.executeStatement(ctx, &statement, valueHolders, txn.id)
 	if err != nil {
 		return nil, err
 	}

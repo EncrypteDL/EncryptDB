@@ -37,3 +37,10 @@ go get -u -v github.com/satori/go.uuid
 go get -u -v golang.org/x/crypto/bcrypt
 ```
 
+# Build
+
+## Setup
+
+## License
+This library is licensed under the Apache 2.0 License.
+

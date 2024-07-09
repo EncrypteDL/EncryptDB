@@ -1,3 +1,3 @@
-module github.com/EncrypteID/Encrypte-Quantum-Ledger-Database
+module github.com/EncrypteDL/Encrypte-Quantum-Ledger-Database
 
-go 1.22.3
+go 1.22.5

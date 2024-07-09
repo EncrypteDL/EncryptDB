@@ -1,4 +1,4 @@
-package errors
+package driver
 
 type txnError struct {
 	transactionID string

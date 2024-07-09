@@ -39,6 +39,11 @@ go get -u -v golang.org/x/crypto/bcrypt
 
 # Build
 
+Run the tests using the following command:
+```
+go test ./driver
+```
+
 ## Setup
 
 ## License

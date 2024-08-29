@@ -2,6 +2,10 @@
 
 **EncryptDB** is a decentralized database engine designed in Go, providing secure and scalable data storage solutions. As part of the Encrypt Distributed Ledger (EDL) organization, EncryptDB is built to support distributed systems and blockchain projects by ensuring data integrity, high availability, and enhanced security.
 
+⚠️ Warning
+
+This project is still in active development and is subject to changes. Future versions may introduce breaking changes, new features, or improvements. We recommend keeping your implementation flexible and checking for updates regularly to stay informed about the latest changes and upgrades.
+
 ## Table of Contents
 
 1. [Overview](#overview)
